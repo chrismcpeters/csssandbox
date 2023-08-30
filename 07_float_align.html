@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float & Align</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.4em;
+    }
+  
+    .container {
+      max-width: 960px;
+      margin: 30px auto;
+    }
+    /* Used to clear when floating so not stuck behind */
+    .clr {
+      clear: both;
+    }
+
+    .box {
+      background: #f4f4f4;
+      border: 1px solid #333;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+
+    .box p {
+      /* Text Align */
+      text-align: right;
+      text-align: center;
+      text-align: justify;
+    }
+
+    #box2 {
+      float: left;
+      width: 68%;
+    }
+
+    #box3 {
+      float: right;
+      width: 30%;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div id="box1" class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt molestias dolorum doloribus aliquid porro nulla omnis explicabo dicta nisi natus.</p>
+  </div>
+  <div id="box2" class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt molestias dolorum doloribus aliquid porro nulla omnis explicabo dicta nisi natus.</p>
+  </div>
+  <div id="box3" class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt molestias dolorum doloribus aliquid porro nulla omnis explicabo dicta nisi natus.</p>
+  </div>
+  <div class="clr"></div>
+
+  <div id="box4" class="box">
+    <h3>Heading</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt molestias dolorum doloribus aliquid porro nulla omnis explicabo dicta nisi natus.</p>
+  </div>
+</div>
+
+  
+</body>
+</html>
